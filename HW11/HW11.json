@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "9d70acd5-c346-4b08-8f3b-27792f3acee3",
+		"name": "HW_11",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41302159"
+	},
+	"item": [
+		{
+			"name": "addProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"kjjkh\",\r\n       \"price\":20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}products",
+					"host": [
+						"{{BASE_URL}}products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}products",
+					"host": [
+						"{{BASE_URL}}products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}products/67a208cdbd288569cee0ff6e",
+					"host": [
+						"{{BASE_URL}}products"
+					],
+					"path": [
+						"67a208cdbd288569cee0ff6e"
+					]
+				}
+			},
+			"response": []
+		
+		
+			
+		}
+	]
+}
